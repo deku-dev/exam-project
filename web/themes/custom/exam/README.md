@@ -6,6 +6,7 @@
 
 ### CSS compilation.
 
-Prerequisites: install [sass](https://sass-lang.com/install).
+Prerequisites: install [sass].
+Prerequisites: install [gulp].
 
-To compile, run from subtheme directory: `sass scss/style.scss css/style.css`
+To compile, run from subtheme directory: `gulp`
