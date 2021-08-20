@@ -1,0 +1,13 @@
+/* Styling search page  */
+.path-search {
+  .region-content {
+    @extend .container;
+    .form-search {
+      background-color: #fff;
+      padding: 7px 9px;
+      color: $black;
+      border: 1px solid $text-muted;
+      border-radius: 0;
+    }
+  }
+}

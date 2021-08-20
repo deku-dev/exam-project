@@ -1,0 +1,34 @@
+/* Styling block clients on front page */
+
+.view-clients-view {
+  .view-header {
+    @extend .container;
+  }
+  .view-content {
+    margin-top: 50px;
+    margin-bottom: 140px;
+    @extend .container;
+    display: flex;
+    justify-content: center;
+    .link-to-clients {
+      display: flex;
+      justify-content: center;
+      & > img {
+        width: 60px;
+        height: 60px;
+      }
+    }
+    .views-row {
+      display: flex;
+      justify-content: center;
+      width: 15%;
+      min-width: 80px;
+    }
+  }
+}
+.carousel-inner::after {
+  position: relative;
+}
+.slick-dots {
+  display: none !important;
+}

@@ -1,0 +1,29 @@
+/* File for styling the page about(contact us)  */
+
+body.page-node-type-about {
+  .region-content {
+    @extend .container;
+    display: flex;
+    justify-content: center;
+  }
+}
+.node--type-about {
+  flex: 1 0 50%;
+}
+.map-container {
+  height: 173px !important;
+}
+#webform-submission-demo-region-contact-node-18-add-form {
+  width: 100%;
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px 14px;
+    &::placeholder {
+      text-transform: uppercase;
+    }
+  }
+}
+#edit-actions-submit {
+  border-left: 1px solid #ced4da;
+}

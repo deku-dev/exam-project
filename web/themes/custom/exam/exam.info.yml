@@ -1,0 +1,19 @@
+name: exam
+type: theme
+description: "exam subtheme based on Bootstrap 4 theme."
+core_version_requirement: "^8.8 || ^9"
+"base theme": bootstrap4
+libraries:
+  - exam/global-styling
+  - exam/global-scripts
+  - exam/slick-slider
+stylesheets-remove:
+  - "@bootstrap4/css/style.css"
+regions:
+  header: Header
+  nav_branding: "Navigation branding region"
+  nav_main: "Main navigation region"
+  nav_additional: "Additional navigation region (eg search form, social icons, etc)"
+  breadcrumb: Breadcrumbs
+  content: "Main content"
+  footer: Footer

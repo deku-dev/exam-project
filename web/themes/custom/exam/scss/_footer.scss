@@ -1,0 +1,19 @@
+/* Style region footer */
+
+footer.mt-auto {
+  background-color: #373645;
+}
+
+.region-footer {
+  display: flex;
+  flex-direction: row !important;
+  justify-content: space-between;
+  .navbar {
+    flex-wrap: nowrap;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .block-system-branding-block {
+    width: 50%;
+  }
+}

@@ -1,0 +1,19 @@
+/* Form styling global */
+
+.form-control-style {
+  outline: none;
+  border: 1px solid $gray-400;
+  padding: 4px 7px;
+}
+.submit-btn {
+  border: 1px solid $gray-400;
+  border-left: none;
+  background-color: transparent;
+  padding: 4px 7px;
+}
+#search-block-form {
+  display: flex;
+}
+#edit-title {
+  width: 100%;
+}

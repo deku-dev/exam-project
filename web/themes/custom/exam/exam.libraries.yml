@@ -1,0 +1,11 @@
+global-styling:
+  css:
+    theme:
+      css/style.css: {}
+      slick/slick.css: {}
+global-scripts:
+  js:
+    scripts/scripts.js: {}
+slick-slider:
+  js:
+    slick/slick.min.js: {}

@@ -1,0 +1,71 @@
+/* Style block Projects on front page */
+
+.section-project {
+  .card {
+    border: none;
+    border-bottom: 1px solid $dark;
+    border-radius: 0;
+    padding: 0;
+    & > .views-field-view-node {
+      margin: 18px 0;
+    }
+    & > .views-field-nothing {
+      margin: 5px 0;
+    }
+    .image-style-large {
+      width: 100%;
+      height: auto;
+    }
+  }
+}
+.pager {
+  margin: 40px 0 60px 0;
+  padding-bottom: 140px;
+}
+.pagination {
+  justify-content: center;
+  .page-item {
+    margin: 0 5px;
+  }
+  .page-link {
+    color: #777;
+    font-size: 1.2rem;
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+  }
+  .active > .page-link {
+    color: #777;
+    border-radius: 50px;
+    background-color: #c3c3c3;
+    border: none;
+  }
+  .pager__item--last > .page-link {
+    border-radius: 50px;
+  }
+}
+#block-views-block-projects-block-1 {
+  .container-fluid {
+    background: repeating-linear-gradient(
+      135deg,
+      #fff,
+      #fff 4px,
+      #ddd 4px,
+      #ddd 5px,
+      #fff 6px
+    );
+  }
+  .container-block {
+    .view-header {
+      @extend .container;
+    }
+    .view-content {
+      @extend .container;
+      padding: 40px 0 0 0;
+    }
+  }
+}
