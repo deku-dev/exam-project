@@ -6,7 +6,5 @@
 
 ### CSS compilation.
 
-Prerequisites: install [sass].
-Prerequisites: install [gulp].
-
-To compile, run from subtheme directory: `gulp`
+To install dependencies, run: `npm install`
+To compile, run from subtheme directory: `css:build` or for dev `gulp`
