@@ -75,7 +75,7 @@ function better_search_form_alter(&$form, FormStateInterface $form_state, $form_
 
         $theme = \Drupal::service('theme.manager')->getActiveTheme();
         $main_theme = $theme->getName();
-        // $base_themes = $theme->getBaseThemes();
+        $base_themes = $theme->getBaseThemes();
 
         if ($main_theme == "bootstrap" || array_key_exists('bootstrap', $base_themes)){
           /* Works with Bootstrap */

@@ -5,7 +5,6 @@
 
 .contextual-region {
   position: relative;
-  /* width: 100vw; */
 }
 .contextual .trigger:focus {
   /* Override the .focusable position: static */

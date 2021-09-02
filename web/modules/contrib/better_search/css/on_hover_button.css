@@ -71,7 +71,7 @@ i.better_search {
 }
 
 #search-block-form .icon {
-  /* position: absolute; */
+  position: absolute;
   border: none;
   top: 0;
   right: 0;
