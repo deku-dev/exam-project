@@ -31,9 +31,11 @@ body.page-node-type-about {
     height: 100%;
   }
 }
-.field-contact:not(:last-child){
+.field-contact{
   margin: 10px 0;
-
+}
+.field-contact:last-child{
+  margin-bottom: 0;
 }
 .field-contact{
   font-size: 1.1rem;
@@ -48,7 +50,24 @@ textarea.field-contact{
   font-size: 1.1rem;
   background-color: red;
 }
+.field--name-field-email-company{
+  font-size: smaller;
+}
 .address{
   font-size: smaller;
   margin-bottom: 0;
+}
+.line-bottom{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  &::after{
+    content: "";
+    margin: auto;
+    position: absolute;
+    width: 6%;
+    height: 5px;
+    bottom: -15px;
+    background-color: $text-muted;
+  }
 }

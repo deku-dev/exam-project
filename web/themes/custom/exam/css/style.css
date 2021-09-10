@@ -11205,8 +11205,12 @@ body.page-node-type-about .region-content {
   height: 100%;
 }
 
-.field-contact:not(:last-child) {
+.field-contact {
   margin: 10px 0;
+}
+
+.field-contact:last-child {
+  margin-bottom: 0;
 }
 
 .field-contact {
@@ -11224,9 +11228,28 @@ textarea.field-contact {
   background-color: red;
 }
 
+.field--name-field-email-company {
+  font-size: smaller;
+}
+
 .address {
   font-size: smaller;
   margin-bottom: 0;
+}
+
+.line-bottom {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.line-bottom::after {
+  content: "";
+  margin: auto;
+  position: absolute;
+  width: 6%;
+  height: 5px;
+  bottom: -15px;
+  background-color: #6c757d;
 }
 
 /* File for styling the page listing articles by content type  */
