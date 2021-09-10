@@ -4,3 +4,11 @@
  * @file
  * exam theme file.
  */
+/**
+ * hook_form_FORM_ID_alter
+ */
+function exam_form_search_block_form_alter(&$form, &$form_state, $form_id){
+  $form['search_block_form']['#title'] = t('dddd');
+  $form['actions']['submit'] = array('#type' => 'image_button', '#src' => base_path(). drupal_get_path('theme', 'exam')  . '/assets/search-icon.svg');
+
+}

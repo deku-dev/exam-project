@@ -10,9 +10,6 @@ body.page-node-type-about {
 .node--type-about {
   flex: 1 0 50%;
 }
-.map-container {
-  height: 173px !important;
-}
 #webform-submission-demo-region-contact-node-18-add-form {
   width: 100%;
   input,
@@ -26,4 +23,32 @@ body.page-node-type-about {
 }
 #edit-actions-submit {
   border-left: 1px solid #ced4da;
+}
+.field--type-google-map-field{
+  min-height: 200px;
+  height: 100%;
+  & > .google-map-field{
+    height: 100%;
+  }
+}
+.field-contact:not(:last-child){
+  margin: 10px 0;
+
+}
+.field-contact{
+  font-size: 1.1rem;
+
+  padding: 20px 10px;
+}
+textarea.field-contact{
+  resize: none;
+  padding: 10px;
+}
+.submit-contact{
+  font-size: 1.1rem;
+  background-color: red;
+}
+.address{
+  font-size: smaller;
+  margin-bottom: 0;
 }

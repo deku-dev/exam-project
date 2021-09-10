@@ -1,15 +1,13 @@
-window.onload = () => {
-  let elem = document.querySelectorAll("span[data-color]");
-  console.log(elem);
-  for (const key in elem) {
-    if (Object.hasOwnProperty.call(elem, key)) {
-      const element = elem[key];
-      element.style.color = element.getAttribute("data-color");
-    }
+let elem = document.querySelectorAll("span[data-color]");
+console.log(elem);
+for (const key in elem) {
+  if (Object.hasOwnProperty.call(elem, key)) {
+    const element = elem[key];
+    element.style.color = element.getAttribute("data-color");
   }
-};
+}
 jQuery(document).ready(function () {
-  jQuery(".view-clients-view .view-content").slick({
+  jQuery(".view-clients .view-content").slick({
     infinite: true,
     slidesToShow: 6,
     arrows: false,

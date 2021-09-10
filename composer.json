@@ -23,6 +23,7 @@
     "drupal/better_search": "^1.5",
     "drupal/better_social_sharing_buttons": "^3.2",
     "drupal/bootstrap4": "^2.1",
+    "drupal/coder": "^8.3",
     "drupal/color_field": "^2.4",
     "drupal/core-composer-scaffold": "^9.2",
     "drupal/core-project-message": "^9.2",
@@ -43,10 +44,12 @@
     "drupal/simple_gmap": "^3.0",
     "drupal/social_link_field": "^1.1@alpha",
     "drupal/social_media_links": "^2.8",
+    "drupal/twig_tweak": "^3.1",
     "drupal/views_block_area": "^1.0@beta",
     "drupal/votingapi": "^3.0@beta",
     "drupal/webform": "^6.0",
     "drush/drush": "^10.5",
+    "squizlabs/php_codesniffer": "*",
     "twig/html-extra": "^3.3"
   },
   "conflict": {

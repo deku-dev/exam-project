@@ -1,0 +1,39 @@
+{#
+/**
+ * @file
+ * Default theme implementation for a webform submission form.
+ *
+ * Available variables:
+ * - form: The webform submission form.
+ *
+ * @ingroup themeable
+ */
+ #}
+ 
+ {# {{ form }} #}
+ <div class="row">
+   <div class="col-6">
+     {{ form.elements.name }}
+    {{ form.elements.email }}
+    {{ form.elements.phone }}
+    {{ form.elements.message }}
+  </div>
+  {# <div class="mapouter col-6">
+    <div class="gmap-canvas">
+      <iframe width="600" height="500" id="gmap-canvas" src="https://maps.google.com/maps?q=2880%20Broadway,%20New%20York&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><br>
+      <style>
+        .mapouter{position:relative;text-align:right;height:auto;}
+      </style>
+      <a href="https://www.embedgooglemap.net"></a>
+      <style>
+        .gmap-canvas {overflow:hidden;background:none!important;height:100%;width:100%;}
+      </style>
+    </div>
+  </div> #}
+  {# {% extends "node--contacts.html.twig" %} #}
+  {% block content %}
+  {% endblock %}
+  <div class="col-12">
+    {{ form.elements.actions}}
+  </div>
+  </div>
