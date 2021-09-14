@@ -77,6 +77,9 @@
   #views-exposed-form-news-block-1 {
     .form--inline {
       display: flex;
+      .form-text{
+        width: 100%;
+      }
       .form-control-style {
         border-radius: 5px;
         padding: 8px 14px !important;

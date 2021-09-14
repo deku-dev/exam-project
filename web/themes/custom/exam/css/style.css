@@ -11109,6 +11109,9 @@ code {
 #block-views-block-news-block-1 #views-exposed-form-news-block-1 .form--inline {
   display: flex;
 }
+#block-views-block-news-block-1 #views-exposed-form-news-block-1 .form--inline .form-text {
+  width: 100%;
+}
 #block-views-block-news-block-1 #views-exposed-form-news-block-1 .form--inline .form-control-style, #block-views-block-news-block-1 #views-exposed-form-news-block-1 .form--inline .submit-btn {
   border-radius: 5px;
   padding: 8px 14px !important;
@@ -11378,10 +11381,6 @@ footer.mt-auto {
 
 #search-block-form {
   display: flex;
-}
-
-#edit-title {
-  width: 100%;
 }
 
 .colors-red {
